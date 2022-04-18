@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+.text-reviews {
+    font-family: 'Comfortaa', cursive;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.text-reviews p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.users-name {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1E1E;
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100px;
+    display: inline-block;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 40px;
+}
+
+.background-card {
+    width: 370px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.text-discription {
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E1E1E;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+ .time {
+    font-family: Nunito;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    margin-top: auto;
+ }
+
+.stars {
+    margin-left: 35px;
+    width: 100px;
+    display: inline-block;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.read-completely {
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:darkgray;
+}
+
+.reviews-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #80A529;
+}
+
+.watch-review {
+    padding: 13px 96px;
+    background: #80A529;
+    margin-right: 35px;
+    color: #FFFFFF;
+}
+   
+.leave-review {
+    padding: 13px 120px;
+    color: #80A529;
+    background-color: #FFFFFF;
+}
+
+section {
+    padding-bottom: 100px;
+    background: url(./images/background-towels.png) no-repeat left top -180px,
+    url(./images/background-broom.png) no-repeat right -95px top 200px;  
+}
+
+.slider-button {
+    width: 40px;
+    height: 40px;
+    background-color:  #80A529;
+    background-image: url(./images/slider-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.slider-button-right {
+    right: 0;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.slider-button-left {
+    left: 0;
+}
+
+.card {
+    padding: 35px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
