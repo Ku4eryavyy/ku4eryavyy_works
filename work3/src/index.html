@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <title>Sauna</title>
+</head>
+<body>
+  <section class="section-header"> 
+    <div class="wrapper">
+      <header class="site-header">
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" alt="logo" width="60px" height="60px">
+        </a>
+        <a href="#" class="logo logo-second">
+          <img src="./images/logo-second.svg" alt="logo-second" width="221px" height="48px ">
+        </a>
+        <nav class="navigation">
+           <a href="#" class="navigation-link">залы</a> 
+           <a href="#" class="navigation-link">о нас</a> 
+           <a href="#" class="navigation-link">отзывы</a> 
+           <a href="#" class="navigation-link">контакты</a> 
+        </nav>
+        <div class="booking">
+           <a class="general-phone-settings phone" href="tel:+7911554">+7 (911) 554-</a><a class="general-phone-settings" href="#">...показать номер</a>
+          <button class="book">Забронировать</button>
+        </div>
+      </header>
+    </div> 
+  </section>
+  <main>
+    <div class="wrapper">
+      <section class="section-info-about-sauna">
+        <div class="info-about-sauna">
+          <h2> Баня Лукоморье в Архангельске </h2>
+          <p class="geolocation-text">г. Архангельск, СНТ Транспортник, стр. 11</p>
+          <p class="round-the-clock-work about-work">Работаем <strong>круглосуточно</strong></p>
+          <p class="about-price about-work">Цены <strong>от 900 рублей</strong></p>
+          <button class="order-a-call-back">Заказать обратный звонок</button>
+        </div>
+        <div class="banner"> <img class="banner-photo" src="./images/banner.jpg" alt="" width="440px" height="560px"> 
+        </div>
+        <div class="social-networks"> <img class="vertical-align icon-align" src="./images/Line 5.png" alt="vertical-align" width="1px">
+          <a href="#" class="instagram">
+            <img class="instagram-icon icon" src="./images/instagram.png" alt="instagram-icon" width="20px" height="20px">
+          </a>
+          <a href="#">
+            <img class="vk-icon icon" src="./images/vk.png" alt="vk-icon" width="24px" height="14px">
+          </a>
+          <a href="#">
+            <img class="facebook-icon icon" src="./images/facebook.png" alt="facebook-icon" width="18px" height="18px">
+          </a> 
+          <img class="vertical-align-second icon-align" src="./images/Line 6.png" alt="vertical-align-second" width="1px"> 
+        </div>
+      </section>
+    </div>
+    <form action="https://fom.in.ua/echo" method="post">
+      <section class="section-bath-order">
+        <div class="wrapper">
+          <div class="bath-order">
+            <h2>Узнать,свободна ли сауна</h2>
+          </div>
+          <div class="order-details">
+            <input class="input-number-telephone general-characteristics" type="tel" id="phone" name="phone" placeholder="Ваш телефон" required maxlength="10" minlength="10">
+            <input class="sauna-time general-characteristics" type="text" name="number-of-hours" placeholder="Время посещения сауны">
+            <input class="number-of-hours-sauna general-characteristics" name="visiting-time" type="text" placeholder="Введите количество часов">
+            <button type="submit">Проверить</button>
+          </div>
+          <div class="agreement">
+            <div class="checkbox">
+              <input type="checkbox" required name="terms-of-agreement"> 
+            </div>
+            <p class="terms-of-agreement">Согласен на обработку и передачу персональных данных в соответствии с <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5_%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5" class="user-agreement">пользовательским соглашением</a></p>
+          </div>
+           <img class="bath-tools" src="./images/bath-tools.png" alt="bath-tools" width="373px" height="291px"> 
+          </div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

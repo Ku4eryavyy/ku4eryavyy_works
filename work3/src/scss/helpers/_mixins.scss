@@ -1,0 +1,15 @@
+
+@mixin fontFamily () {
+    font-family: Nunito;
+    font-weight: 600;
+}
+
+@mixin fontFamilyNormal {
+    font-family: Nunito;
+    font-weight: normal;
+}
+
+@mixin fontFamilyComforta {
+    font-family: Comfortaa;
+    font-weight: bold;
+}
