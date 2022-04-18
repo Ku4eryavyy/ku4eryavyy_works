@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/background-photo.jpg);
+    background-repeat: no-repeat;
+    height: 5000px;
+    background-size: cover;
+}
+
+input {
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+form {
+    position: fixed;
+    background-color: #fff;
+    padding: 50px 80px 58px 80px;
+    width: 460px;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    transform: translateY(-50%);
+    font-family: 'PT Sans Narrow';  
+}
+
+.close {
+    position: absolute;
+    top: 9px;
+    right: -34px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-close {
+    background-image: url(./images/close-form.png);
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.content {
+    margin-bottom: 14px;
+}
+
+[placeholder] {
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 17px;
+    padding-right: 30px;
+}
+
+::placeholder {
+    color: #000000;   
+}
+
+.password-recovery {
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.password-block {
+    margin-bottom: 11px;
+    position: relative;
+}
+
+.password-settings {
+    margin-bottom: 18px;
+    text-align: right;
+}
+
+section { 
+    width: 300px;
+    font-family: 'PT Sans Narrow';  
+}
+
+.button {
+    width: 100%;
+    background-color: black;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-color: black;
+    cursor: pointer;
+    padding-top: 13px ;
+    padding-bottom: 13px;
+}
+
+.icon {
+    padding: 0;
+}
+
+.login {
+    width: 100%;
+    position: relative;
+    margin-bottom: 9px;
+}
+
+.login::after {
+    content: url("./images/icon_user.png");
+}
+
+.password-block::after {
+    content: url("./images/icon_lock.png");
+}
+
+.icon::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 15px 9px 15px;
+}
